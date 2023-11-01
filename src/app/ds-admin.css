@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #FFBD5C;
+  --secondary-color: #A03636;
+}
+
+.left-element, .judul-content {
+  background-color: var(--secondary-color);
+}
+
+.col, .nav-atas, .graph{
+  background-color: var(--primary-color);
+}
+
+
