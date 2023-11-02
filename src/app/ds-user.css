@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
 }
 
 :root {
@@ -12,7 +13,7 @@
   background-color: var(--background-color);
 }
 
-.sidebar, .modal-content {
+.sidebar, .modal-content, .menu-profile {
   background-color: var(--secondary-color);
 }
 
@@ -55,4 +56,8 @@ grid-row-gap: 0px;
 
 .kotak-atas, svg, .kotak {
   border-radius: 20px;
+}
+
+#gaktau .modalheader {
+  height: 5px;
 }
