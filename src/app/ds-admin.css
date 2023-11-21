@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
 }
 
 :root {
@@ -7,12 +8,39 @@
   --secondary-color: #A03636;
 }
 
-.left-element, .judul-content {
+.navbar, .col, #graph {
+  background-color: var(--primary-color);
+  /* display: none; */
+}
+
+.content {
+  padding-top: 55px;
+}
+
+.sidebar, .judul-content, #btn-search {
   background-color: var(--secondary-color);
 }
 
-.col, .nav-atas, .graph{
-  background-color: var(--primary-color);
+#graph {
+  display: block;
 }
+
+#container-income:active {
+  border: 10px solid gray;
+}
+
+#content-income {
+  display: none;
+}
+
+#content-income input[type="date"] {
+  border: none; /* Menghapus semua border */
+  border-bottom: 2px solid black; /* Menambahkan border hanya di bagian bawah */
+  background-color: transparent; /* Menghapus latar belakang */
+  color: black; /* Warna teks */
+  padding: 8px; /* Padding di sekitar teks */
+
+}
+
 
 
