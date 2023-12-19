@@ -10,7 +10,10 @@
     <title>Booking</title>
     <script>
       function view_alert() {
-          alert("Anda yakin?");
+        var konfirmasi = confirm("Apakah Anda yakin ingin melanjutkan?");
+        if (konfirmasi) {
+                // Ganti URL berikut dengan URL halaman yang ingin Anda tuju
+                window.location.href = "payment-method.html";}
       }
   </script>
     <style>
@@ -268,11 +271,12 @@
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
+      style="left: 100vh;"
     >
       <div class="modal-dialog">
         <div
-          class="modal-content w-25 p-2"
-          style="left: 900px; background-color: #9a2929"
+          class="modal-content w-25 p-2 "
+          style="background-color: #9a2929"
         >
           <ul class="nav flex-column">
             <li class="nav-item d-flex align-items-center">
