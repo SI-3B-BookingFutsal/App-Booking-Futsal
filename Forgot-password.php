@@ -176,7 +176,7 @@ if (isset($_POST['submit'])) {
             <div style="text-align: center; font-size: 13px" class="my-2">
               <p>
                 Belum memiliki akun?
-                <a href="Register.html">Daftar sekarang!</a>
+                <a href="Register.php">Daftar sekarang!</a>
               </p>
             </div>
           </div>

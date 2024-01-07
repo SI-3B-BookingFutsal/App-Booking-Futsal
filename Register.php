@@ -219,7 +219,7 @@ if (isset($_POST['register'])) {
                 </button>
               </form>
               <p class="mt-1 text-center">
-                Sudah Punya akun? <a href="Login.html">Login Disini</a>
+                Sudah Punya akun? <a href="Login.php">Login Disini</a>
               </p>
             </div>
           </div>
